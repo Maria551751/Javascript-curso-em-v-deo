@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sistema para descobrir se vc é estrangeiro ou não</h1>
+    Vc é estrangeiro? <input type="text" name="txtES" id="txtES">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function calcular() {
+            var txtS = window.document.getElementById('txtES')
+            var res = window.document.getElementById('res')
+            var ES = String(txtS.value)
+            if (ES == 'Brasil') {
+                res.innerHTML = `<p>Vc é <strong>Brasileiro!</strong></p>`
+            } else {
+                res.innerHTML = `<p>Vc é <strong>Estrangeiro!</strong></p>`
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+background: rgb(97, 97, 159);
+font: normal 15pt arial;
+}
+
+header {
+color: white;
+text-align: center;
+margin-top: 80px;
+
+}
+
+section {
+background: rgb(230, 215, 215);
+border-radius: 15px;
+padding: 38px;
+width: 500px;
+height: 250px;
+margin: auto;
+box-shadow: 5px 5px 10px rgb(40, 34, 34) ;
+margin-top: 120px;
+box-shadow: rgb(57, 52, 52);
+background-color: rgb(211, 186, 251);
+
+
+}
+
+footer {
+color: rgb(252, 253, 255);
+text-align: center;
+font-style: italic;
+}
+ 
+img {
+    margin-top: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 1000px;
+    position: relative;
+    transform: translateY(20px);
+    
+}
+ input {
+    cursor: pointer;
+    border-radius: 5px;
+ }
+
+select {
+    width: 150px;
+    height: 200px;
+    text-align: left;
+    font-size: medium;
+    border-color: rgb(206, 5, 162);
+    background-color: rgb(227, 182, 245);
+
+}
